@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "aledefreitas/cassandra-laravel": "^1.1",
+        "aledefreitas/cassandra-laravel": "dev-master",
         "laravel/helpers": "*",
         "aledefreitas/eloquent-repositories": "^1.0",
         "illuminate/pagination": "*"

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f0f5623786cd20aa20f4571143821d1",
+    "content-hash": "5437ecd775eab7f390cf30fdcaa5ff06",
     "packages": [
         {
             "name": "aledefreitas/cassandra-laravel",
-            "version": "v1.1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aledefreitas/cassandra-laravel.git",
-                "reference": "e48f50d608fe5e3d7d569014b8d9b218b6429c9a"
+                "reference": "e13af8932568d1e4cafe42afeacbbc2e4e259240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aledefreitas/cassandra-laravel/zipball/e48f50d608fe5e3d7d569014b8d9b218b6429c9a",
-                "reference": "e48f50d608fe5e3d7d569014b8d9b218b6429c9a",
+                "url": "https://api.github.com/repos/aledefreitas/cassandra-laravel/zipball/e13af8932568d1e4cafe42afeacbbc2e4e259240",
+                "reference": "e13af8932568d1e4cafe42afeacbbc2e4e259240",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
                 "nosql",
                 "query builder"
             ],
-            "time": "2019-05-02T12:17:13+00:00"
+            "time": "2019-11-19T09:50:28+00:00"
         },
         {
             "name": "aledefreitas/eloquent-repositories",
@@ -840,7 +840,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aledefreitas/cassandra-laravel": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
