@@ -1,0 +1,30 @@
+{
+    "name": "aledefreitas/cassandra-repositories",
+    "description": "Implementation of `aledefreitas/eloquent-repositories` using Cassandra as database",
+    "type": "library",
+    "license": "APACHE2.0",
+    "authors": [
+        {
+            "name": "Alexandre Caetano",
+            "email": "alexandrefc2@hotmail.com"
+        }
+    ],
+    "require": {
+        "aledefreitas/cassandra-laravel": "^1.1",
+        "laravel/helpers": "*",
+        "aledefreitas/eloquent-repositories": "^1.0",
+        "illuminate/pagination": "*"
+    },
+    "autoload": {
+       "psr-4": {
+           "Aledefreitas\\EloquentRepositories\\": "src/"
+       }
+   },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "CassandraHelper": "Aledefreitas\\EloquentRepositories\\Cassandra\\Helpers\\CassandraHelper"
+            }
+        }
+    }
+}
