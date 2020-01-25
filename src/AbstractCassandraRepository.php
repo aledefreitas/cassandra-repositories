@@ -5,7 +5,7 @@
 
 namespace Aledefreitas\EloquentRepositories;
 
-use Aledefreitas\EloquentRepositories\Eloquent\AbstractRepository as BaseRepository;
+use Aledefreitas\EloquentRepositories\AbstractRepository as BaseRepository;
 
 use Aledefreitas\EloquentRepositories\Contracts\Operations\ReadInterface;
 use Aledefreitas\EloquentRepositories\Cassandra\Operations\Read;
