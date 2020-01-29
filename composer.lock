@@ -4,25 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5437ecd775eab7f390cf30fdcaa5ff06",
+    "content-hash": "2f692ba5db48ef0619d11cf9414ba1f8",
     "packages": [
         {
             "name": "aledefreitas/cassandra-laravel",
-            "version": "dev-master",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aledefreitas/cassandra-laravel.git",
-                "reference": "e13af8932568d1e4cafe42afeacbbc2e4e259240"
+                "reference": "4c11d501591f87309006bba7c1640d04c841e6c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aledefreitas/cassandra-laravel/zipball/e13af8932568d1e4cafe42afeacbbc2e4e259240",
-                "reference": "e13af8932568d1e4cafe42afeacbbc2e4e259240",
+                "url": "https://api.github.com/repos/aledefreitas/cassandra-laravel/zipball/4c11d501591f87309006bba7c1640d04c841e6c4",
+                "reference": "4c11d501591f87309006bba7c1640d04c841e6c4",
                 "shasum": ""
             },
             "require": {
                 "ext-cassandra": "^1.3",
-                "php": "^5.6 || ^7.0 || ^7.1"
+                "illuminate/database": "*",
+                "php": "^5.6 || ^7.0 || ^7.1",
+                "vkovic/laravel-custom-casts": "^1.2"
             },
             "require-dev": {
                 "datastax/php-driver": "^1.3",
@@ -63,7 +65,7 @@
                 "nosql",
                 "query builder"
             ],
-            "time": "2019-11-19T09:50:28+00:00"
+            "time": "2020-01-25T15:32:58+00:00"
         },
         {
             "name": "aledefreitas/eloquent-repositories",
@@ -835,14 +837,64 @@
                 "standards"
             ],
             "time": "2019-11-18T17:27:11+00:00"
+        },
+        {
+            "name": "vkovic/laravel-custom-casts",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vkovic/laravel-custom-casts.git",
+                "reference": "3eaf93706b4d3d8940f385cef8e7a858167104e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vkovic/laravel-custom-casts/zipball/3eaf93706b4d3d8940f385cef8e7a858167104e2",
+                "reference": "3eaf93706b4d3d8940f385cef8e7a858167104e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "illuminate/database": "^5.5|^6.0",
+                "orchestra/database": "^3.5|^4.0",
+                "orchestra/testbench": "^3.5|^4.0",
+                "phpunit/phpunit": "^6.3|^7.0|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vkovic\\LaravelCustomCasts\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Ković",
+                    "email": "vlada.kovic@gmail.com"
+                }
+            ],
+            "description": "Make your own custom cast type for Laravel model attributes",
+            "keywords": [
+                "cast",
+                "casts",
+                "datatype",
+                "laravel",
+                "model"
+            ],
+            "time": "2019-10-15T17:48:54+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aledefreitas/cassandra-laravel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
