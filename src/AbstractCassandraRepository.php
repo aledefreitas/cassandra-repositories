@@ -9,7 +9,6 @@ use Aledefreitas\EloquentRepositories\AbstractRepository as BaseRepository;
 
 use Aledefreitas\EloquentRepositories\Contracts\Operations\ReadInterface;
 use Aledefreitas\EloquentRepositories\Cassandra\Operations\Read;
-use Aledefreitas\EloquentRepositories\Cassandra\Operations\LocalizedSession;
 use Aledefreitas\EloquentRepositories\Cassandra\Operations\TriggersEvents;
 
 abstract class AbstractCassandraRepository extends BaseRepository implements ReadInterface
